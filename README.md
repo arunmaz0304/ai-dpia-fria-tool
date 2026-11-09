@@ -20,7 +20,15 @@ An interactive tool for running a combined Data Protection Impact Assessment (GD
 
 ## Using it
 
-Open `index.html` in a browser. Nothing is sent anywhere; the page runs locally.
+Open `index.html` in a browser. Nothing is sent anywhere; the page runs fully offline.
+
+- **Autosave:** answers are kept in your browser as you go, so a refresh doesn't lose them.
+- **Save to file:** downloads the assessment as a `.json` file. Use this to keep a record, move to another computer, or hand over to a colleague.
+- **Open file:** loads a saved `.json` back in.
+- **New assessment:** clears the current answers (save first if you need them).
+- **Print report:** on the Report tab; the save/open buttons are hidden in print.
+
+Autosave lives in one browser on one computer only. Treat the `.json` file as the real record, and remember it will contain whatever you typed, possibly personal data about the system under review.
 
 ## Caveat
 
