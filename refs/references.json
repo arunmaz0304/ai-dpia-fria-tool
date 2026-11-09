@@ -1,0 +1,1142 @@
+{
+ "version": "2026-11-09",
+ "note": "Curated legal references for the DPIA/FRIA tool. Each item records the date it was checked. Items with 'check' need follow-up before relying on the pinpoint or status.",
+ "references": [
+  {
+   "id": "g4",
+   "kind": "law",
+   "cite": "GDPR Art. 4(1), (4), (5)",
+   "note": "Definitions of personal data, profiling and pseudonymisation.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    1,
+    2
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g5",
+   "kind": "law",
+   "cite": "GDPR Art. 5(1)(a)–(f), 5(2)",
+   "note": "Core principles (lawfulness, fairness, transparency, purpose limitation, minimisation, accuracy, storage limitation, security) and accountability.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    3
+   ],
+   "triggers": [
+    "R2",
+    "R8",
+    "R9"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g6",
+   "kind": "law",
+   "cite": "GDPR Art. 6(1)(a)–(f)",
+   "note": "Legal bases. Last subparagraph of Art. 6(1): point (f) does not apply to public authorities performing their tasks.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    3
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g64",
+   "kind": "law",
+   "cite": "GDPR Art. 6(4)",
+   "note": "Compatibility test for further processing (e.g. reusing data to train or fine-tune).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    3
+   ],
+   "triggers": [
+    "R8"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g9",
+   "kind": "law",
+   "cite": "GDPR Art. 9(1)–(2)",
+   "note": "Prohibition on processing special categories, and the exceptions that lift it.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    2,
+    3
+   ],
+   "triggers": [
+    "c353b",
+    "crit4"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g10",
+   "kind": "law",
+   "cite": "GDPR Art. 10",
+   "note": "Personal data relating to criminal convictions and offences.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    2,
+    3
+   ],
+   "triggers": [
+    "c353b"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g1314",
+   "kind": "law",
+   "cite": "GDPR Arts. 13(2)(f), 14(2)(g)",
+   "note": "Information about the existence of automated decision-making, meaningful information about the logic involved, significance and consequences.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R3",
+    "R4",
+    "m14"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g15",
+   "kind": "law",
+   "cite": "GDPR Art. 15(1)(h)",
+   "note": "Right of access to information about automated decision-making and the logic involved.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R3",
+    "R10"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g1617",
+   "kind": "law",
+   "cite": "GDPR Arts. 16–17, 21",
+   "note": "Rectification, erasure and objection; consider retraining, unlearning or output filtering.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R5",
+    "R10"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g22",
+   "kind": "law",
+   "cite": "GDPR Art. 22(1)–(4)",
+   "note": "Right not to be subject to a decision based solely on automated processing with legal or similarly significant effects; exceptions and safeguards (human intervention, express view, contest).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    1,
+    4,
+    5
+   ],
+   "triggers": [
+    "R4",
+    "auto",
+    "crit2"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g25",
+   "kind": "law",
+   "cite": "GDPR Art. 25",
+   "note": "Data protection by design and by default.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g28",
+   "kind": "law",
+   "cite": "GDPR Arts. 26, 28",
+   "note": "Joint controllers and processors: role allocation and the Art. 28(3) processor contract.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g30",
+   "kind": "law",
+   "cite": "GDPR Art. 30",
+   "note": "Records of processing activities; the DPIA should be consistent with the RoPA.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    2
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g32",
+   "kind": "law",
+   "cite": "GDPR Art. 32",
+   "note": "Security of processing appropriate to the risk.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R6",
+    "R7",
+    "R14"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g3334",
+   "kind": "law",
+   "cite": "GDPR Arts. 33–34",
+   "note": "Personal data breach notification to IMY (72 hours) and communication to data subjects.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    7
+   ],
+   "triggers": [
+    "R14"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g35",
+   "kind": "law",
+   "cite": "GDPR Art. 35(1), (3)(a)–(c), (4), (7), (9), (11)",
+   "note": "When a DPIA is required, the mandatory categories, national lists, minimum content, seeking data subjects' views, and review on change of risk.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "triggers": [
+    "c353a",
+    "c353b",
+    "c353c",
+    "dpia"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g352",
+   "kind": "law",
+   "cite": "GDPR Art. 35(2)",
+   "note": "Controller must seek the advice of the DPO when carrying out a DPIA.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    6
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g36",
+   "kind": "law",
+   "cite": "GDPR Art. 36(1)–(3)",
+   "note": "Prior consultation with the supervisory authority where residual risk stays high; authority has up to eight weeks, extendable by six (Art. 36(2)).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    6
+   ],
+   "triggers": [
+    "art36"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g44",
+   "kind": "law",
+   "cite": "GDPR Arts. 44–46, 49",
+   "note": "Transfers to third countries: adequacy, appropriate safeguards (SCCs), derogations.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "gdpf",
+   "kind": "law",
+   "cite": "Commission Implementing Decision (EU) 2023/1795 (EU–US Data Privacy Framework)",
+   "note": "Adequacy for transfers to certified US organisations. Check certification of each US vendor.",
+   "url": "https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "g7782",
+   "kind": "law",
+   "cite": "GDPR Arts. 77, 82",
+   "note": "Right to lodge a complaint with IMY; right to compensation.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "grec",
+   "kind": "law",
+   "cite": "GDPR Recitals 26, 71, 75, 84, 89–91",
+   "note": "Anonymous data (26); safeguards for automated decisions incl. explanation (71); risk sources (75); DPIA purpose and scope (84, 89–91).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "stages": [
+    1,
+    4
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a3",
+   "kind": "law",
+   "cite": "AI Act Art. 3(1), (3), (4), (23)",
+   "note": "Definitions: AI system, provider, deployer, substantial modification.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "stages": [
+    1,
+    7
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a4",
+   "kind": "law",
+   "cite": "AI Act Art. 4 (as amended by Reg. (EU) 2026/1744)",
+   "note": "AI literacy. After the Digital Omnibus: providers and deployers take measures to support AI literacy; no specific level required.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "m11"
+   ],
+   "verified": "2026-11-09",
+   "check": "Amended text: confirm wording in the OJ version of Reg. (EU) 2026/1744."
+  },
+  {
+   "id": "a4a",
+   "kind": "law",
+   "cite": "AI Act Art. 4a (inserted by Reg. (EU) 2026/1744)",
+   "note": "Exceptional processing of special-category data to detect and correct bias, subject to strict necessity and safeguards. Replaces the former Art. 10(5) route and extends it beyond high-risk providers.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R1",
+    "m1"
+   ],
+   "verified": "2026-11-09",
+   "check": "New article reported in secondary sources; confirm numbering and conditions in the OJ text."
+  },
+  {
+   "id": "a5",
+   "kind": "law",
+   "cite": "AI Act Art. 5(1)(a)–(h)",
+   "note": "Prohibited practices, applicable since 2 February 2025. New points (ba) and (bb) (non-consensual intimate imagery, CSAM generation) apply from 2 December 2026.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "prohibited"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a6",
+   "kind": "law",
+   "cite": "AI Act Art. 6(1)–(4), Annex III",
+   "note": "High-risk classification. Art. 6(3) derogation for Annex III systems that do not pose a significant risk; documentation under Art. 6(4).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "high",
+    "tier"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a6g",
+   "kind": "guidance",
+   "cite": "Commission draft guidelines on high-risk classification (Art. 6)",
+   "note": "Draft published 2026; practical examples of high-risk and non-high-risk use cases.",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "high",
+    "tier"
+   ],
+   "verified": "2026-11-09",
+   "check": "Draft. Check whether the final version has been adopted."
+  },
+  {
+   "id": "a9_15",
+   "kind": "law",
+   "cite": "AI Act Arts. 9–15",
+   "note": "High-risk requirements: risk management (9), data governance incl. bias examination Art. 10(2)(f)–(g) (10), technical documentation (11), logging (12), instructions for use (13), human oversight (14), accuracy, robustness, cybersecurity (15).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "high"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a10",
+   "kind": "law",
+   "cite": "AI Act Art. 10(2)(f)–(g)",
+   "note": "Examination of possible biases and measures to detect, prevent and mitigate them.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-10",
+   "stages": [
+    4,
+    5
+   ],
+   "triggers": [
+    "R1",
+    "m1"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a14",
+   "kind": "law",
+   "cite": "AI Act Art. 14(4)(a)–(e)",
+   "note": "Human oversight, including awareness of automation bias (Art. 14(4)(b)) and ability to override or stop the system.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+   "stages": [
+    4,
+    5
+   ],
+   "triggers": [
+    "R12",
+    "m0"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a15",
+   "kind": "law",
+   "cite": "AI Act Art. 15(4)–(5)",
+   "note": "Robustness and cybersecurity, incl. data poisoning, model poisoning, adversarial examples.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-15",
+   "stages": [
+    4,
+    5
+   ],
+   "triggers": [
+    "R7",
+    "m8"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a25",
+   "kind": "law",
+   "cite": "AI Act Art. 25",
+   "note": "Responsibilities along the value chain; a deployer can become a provider (e.g. substantial modification, own name or trademark, change of intended purpose).",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25",
+   "stages": [
+    1,
+    7
+   ],
+   "triggers": [
+    "provider"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a26",
+   "kind": "law",
+   "cite": "AI Act Art. 26(1)–(11)",
+   "note": "Deployer obligations: use per instructions (1), competent human oversight (2), relevant input data (4), monitoring and reporting (5), keep logs at least six months (6), inform workers' representatives (7), use provider information for the DPIA (9), inform affected persons (11).",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+   "stages": [
+    2,
+    5,
+    7
+   ],
+   "triggers": [
+    "high"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a27",
+   "kind": "law",
+   "cite": "AI Act Art. 27(1)(a)–(f), (2)–(5)",
+   "note": "FRIA for deployers that are public bodies or private entities providing public services, and deployers of Annex III point 5(b) and (c) systems. Content (1)(a)–(f), notify the market surveillance authority (3), complements the DPIA (4), AI Office template (5).",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+   "stages": [
+    1,
+    4,
+    6
+   ],
+   "triggers": [
+    "fria"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a49",
+   "kind": "law",
+   "cite": "AI Act Art. 49",
+   "note": "Registration in the EU database, incl. public-authority deployers (Art. 49(3)).",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "high"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a50",
+   "kind": "law",
+   "cite": "AI Act Art. 50(1)–(4)",
+   "note": "Transparency: disclose AI interaction, mark synthetic content, deepfakes, emotion recognition and biometric categorisation. Applies since 2 August 2026; Art. 50(2) grace period to 2 December 2026 for systems already on the market.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+   "stages": [
+    1,
+    5
+   ],
+   "triggers": [
+    "limited",
+    "m14"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a53",
+   "kind": "law",
+   "cite": "AI Act Art. 53",
+   "note": "GPAI model provider obligations, incl. documentation for downstream providers.",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+   "stages": [
+    2
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a7273",
+   "kind": "law",
+   "cite": "AI Act Arts. 72–73",
+   "note": "Post-market monitoring and serious incident reporting.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "stages": [
+    7
+   ],
+   "triggers": [
+    "high"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a8586",
+   "kind": "law",
+   "cite": "AI Act Arts. 85–86",
+   "note": "Right to complain to a market surveillance authority; right to explanation of individual decision-making (Annex III high-risk).",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "high",
+    "R3"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "a113",
+   "kind": "law",
+   "cite": "AI Act Art. 113 (as amended by Reg. (EU) 2026/1744)",
+   "note": "Application dates: Annex III high-risk obligations (incl. Arts. 26–27) from 2 December 2027; Annex I high-risk from 2 August 2028.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "high",
+    "fria"
+   ],
+   "verified": "2026-11-09",
+   "check": "Dates from secondary sources on Reg. (EU) 2026/1744 (OJ 24 July 2026); confirm against the OJ text."
+  },
+  {
+   "id": "cfr",
+   "kind": "law",
+   "cite": "EU Charter of Fundamental Rights Arts. 1, 7, 8, 11, 21, 23–26, 31, 34–35, 38, 41, 47",
+   "note": "The rights assessed in the FRIA: dignity, privacy, data protection, expression, non-discrimination, children, elderly and disability, fair working conditions, social security and health care, consumer protection, good administration, effective remedy.",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016P/TXT",
+   "stages": [
+    4
+   ],
+   "triggers": [
+    "fria",
+    "R1",
+    "R13"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "se_dsl",
+   "kind": "law",
+   "cite": "Dataskyddslagen (SFS 2018:218)",
+   "note": "Swedish supplementary provisions to the GDPR (e.g. special categories, personal identity numbers).",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218/",
+   "stages": [
+    2,
+    3
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "se_mbl",
+   "kind": "law",
+   "cite": "Medbestämmandelagen (SFS 1976:580) §§ 11, 19",
+   "note": "Duty to negotiate before major changes and to inform unions; relevant when AI is introduced at work (alongside AI Act Art. 26(7)).",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1976580-om-medbestammande-i-arbetslivet_sfs-1976-580/",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "high"
+   ],
+   "verified": "2026-11-09",
+   "check": "Confirm section numbers against the consolidated act."
+  },
+  {
+   "id": "se_bdl",
+   "kind": "law",
+   "cite": "Brottsdatalagen (SFS 2018:1177) 3 kap. 7 §",
+   "note": "Impact assessment duty for law-enforcement processing (police, prosecutors), outside the GDPR.",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+   "stages": [
+    1
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_schufa",
+   "kind": "case",
+   "cite": "C-634/21 SCHUFA Holding (Scoring), 7 Dec 2023",
+   "note": "A credit score is an Art. 22 'decision' where a third party draws strongly on it to decide. Preparatory automated outputs can fall under Art. 22.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-634/21&language=en",
+   "stages": [
+    1,
+    4,
+    5
+   ],
+   "triggers": [
+    "R4",
+    "auto",
+    "crit2",
+    "crit1"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_db",
+   "kind": "case",
+   "cite": "C-203/22 Dun & Bradstreet Austria, 27 Feb 2025",
+   "note": "Art. 15(1)(h): explain the procedure and principles actually applied, in an intelligible way; a formula or algorithm alone is not enough. Trade secrets go to the authority or court for balancing.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-203/22&language=en",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R3",
+    "R4",
+    "R10"
+   ],
+   "verified": "2026-11-09",
+   "check": "Pinpoint paragraphs (reported as paras 66 and 76) to be confirmed against the judgment."
+  },
+  {
+   "id": "c_meta",
+   "kind": "case",
+   "cite": "C-252/21 Meta Platforms v Bundeskartellamt, 4 Jul 2023",
+   "note": "Contract necessity is narrow (objectively indispensable); limits of legitimate interests; processing that reveals sensitive data falls under Art. 9.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-252/21&language=en",
+   "stages": [
+    3
+   ],
+   "triggers": [
+    "c353b",
+    "crit4"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_ot",
+   "kind": "case",
+   "cite": "C-184/20 OT v Vyriausioji tarnybinės etikos komisija, 1 Aug 2022",
+   "note": "Data that indirectly reveal special-category information (by inference) are special-category data.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-184/20&language=en",
+   "stages": [
+    2,
+    3
+   ],
+   "triggers": [
+    "c353b",
+    "crit4",
+    "R1"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_linden",
+   "kind": "case",
+   "cite": "C-21/23 Lindenapotheke, 4 Oct 2024",
+   "note": "Broad reading of health data: information from which health status can be inferred.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-21/23&language=en",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "c353b",
+    "crit4"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_knltb",
+   "kind": "case",
+   "cite": "C-621/22 Koninklijke Nederlandse Lawn Tennisbond, 4 Oct 2024",
+   "note": "A commercial interest can be a legitimate interest, subject to the necessity and balancing conditions.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-621/22&language=en",
+   "stages": [
+    3
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_tk",
+   "kind": "case",
+   "cite": "C-708/18 TK v Asociaţia de Proprietari bloc M5A-ScaraA, 11 Dec 2019",
+   "note": "The three cumulative conditions of Art. 6(1)(f): legitimate interest, necessity, balancing.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-708/18&language=en",
+   "stages": [
+    3
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_pnr",
+   "kind": "case",
+   "cite": "C-817/19 Ligue des droits humains, 21 Jun 2022",
+   "note": "Automated risk assessment must use non-discriminatory, specific and reliable pre-determined criteria; self-learning systems that change criteria without human review are excluded in that context; human review of hits.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-817/19&language=en",
+   "stages": [
+    4
+   ],
+   "triggers": [
+    "R1",
+    "R12",
+    "R3"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_s2",
+   "kind": "case",
+   "cite": "C-311/18 Facebook Ireland and Schrems (Schrems II), 16 Jul 2020",
+   "note": "SCCs need a case-by-case assessment of the destination country and, if needed, supplementary measures.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-311/18&language=en",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_srb",
+   "kind": "case",
+   "cite": "C-413/23 P EDPS v SRB, 4 Sep 2025",
+   "note": "Pseudonymised data may not be personal data for a recipient who cannot reasonably re-identify; the controller's own obligations are assessed from its perspective at collection.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-413/23&language=en",
+   "stages": [
+    1,
+    2
+   ],
+   "triggers": [
+    "R5"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_breyer",
+   "kind": "case",
+   "cite": "C-582/14 Breyer, 19 Oct 2016",
+   "note": "Identifiability depends on means reasonably likely to be used, incl. via third parties.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-582/14&language=en",
+   "stages": [
+    1
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_schufa2",
+   "kind": "case",
+   "cite": "C-26/22 and C-64/22 SCHUFA Holding (Discharge from remaining debts), 7 Dec 2023",
+   "note": "Keeping data longer than the public source keeps it is unlawful; objection and erasure apply.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-26/22&language=en",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R9"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_nap",
+   "kind": "case",
+   "cite": "C-340/21 Natsionalna agentsia za prihodite, 14 Dec 2023",
+   "note": "A breach does not by itself prove that measures were inappropriate; the controller bears the burden of proof; fear of misuse can be non-material damage.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-340/21&language=en",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R14"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_post",
+   "kind": "case",
+   "cite": "C-300/21 Österreichische Post, 4 May 2023",
+   "note": "Compensation requires actual damage, but there is no seriousness threshold.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-300/21&language=en",
+   "stages": [
+    6
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_rw",
+   "kind": "case",
+   "cite": "C-154/21 RW v Österreichische Post, 12 Jan 2023",
+   "note": "Right of access covers the identity of the actual recipients.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-154/21&language=en",
+   "stages": [
+    5
+   ],
+   "triggers": [
+    "R10",
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_dw",
+   "kind": "case",
+   "cite": "C-807/21 Deutsche Wohnen, 5 Dec 2023",
+   "note": "Fines require intentional or negligent infringement; no need to identify a specific natural person.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-807/21&language=en",
+   "stages": [
+    6
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "c_nvsc",
+   "kind": "case",
+   "cite": "C-683/21 Nacionalinis visuomenės sveikatos centras, 5 Dec 2023",
+   "note": "Joint controllership in commissioning an app; using personal data for testing is processing.",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-683/21&language=en",
+   "stages": [
+    2
+   ],
+   "triggers": [
+    "R11",
+    "R5"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "wp248",
+   "kind": "guidance",
+   "cite": "WP29 Guidelines on DPIA, WP248 rev.01 (endorsed by EDPB)",
+   "note": "The nine criteria; two or more usually means a DPIA is required.",
+   "url": "https://ec.europa.eu/newsroom/article29/items/611236",
+   "stages": [
+    1,
+    4
+   ],
+   "triggers": [
+    "dpia",
+    "crit1",
+    "crit2",
+    "crit3",
+    "crit4",
+    "crit5",
+    "crit6",
+    "crit7",
+    "crit8",
+    "crit9"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "wp251",
+   "kind": "guidance",
+   "cite": "WP29 Guidelines on automated decision-making and profiling, WP251 rev.01 (endorsed by EDPB)",
+   "note": "Meaning of 'solely automated', 'similarly significant effects', meaningful human involvement.",
+   "url": "https://ec.europa.eu/newsroom/article29/items/612053",
+   "stages": [
+    4,
+    5
+   ],
+   "triggers": [
+    "R4",
+    "auto",
+    "crit1",
+    "crit2",
+    "R12"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "op28",
+   "kind": "guidance",
+   "cite": "EDPB Opinion 28/2024 on AI models (17 Dec 2024)",
+   "note": "When a model is anonymous; legitimate interest for development and deployment; consequences of unlawful development for later use.",
+   "url": "https://edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf",
+   "stages": [
+    1,
+    2,
+    3
+   ],
+   "triggers": [
+    "R5",
+    "R6"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "gl1_24",
+   "kind": "guidance",
+   "cite": "EDPB Guidelines 1/2024 on Art. 6(1)(f)",
+   "note": "Three-step legitimate interest test.",
+   "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en",
+   "stages": [
+    3
+   ],
+   "triggers": [],
+   "verified": "2026-11-09",
+   "check": "Published for consultation; check whether a final version has been adopted."
+  },
+  {
+   "id": "edpb_other",
+   "kind": "guidance",
+   "cite": "EDPB Guidelines 2/2019 (Art. 6(1)(b)), 05/2020 (consent), Recommendations 01/2020 (supplementary measures), Guidelines 01/2025 (pseudonymisation)",
+   "note": "Supporting guidance for legal basis, transfers and pseudonymisation.",
+   "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+   "stages": [
+    2,
+    3
+   ],
+   "triggers": [
+    "R11"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "imy_list",
+   "kind": "guidance",
+   "cite": "IMY list of processing requiring a DPIA (Art. 35(4))",
+   "note": "Swedish national list; check the current version on imy.se.",
+   "url": "https://www.imy.se/globalassets/dokument/ovrigt/list-regarding-data-protection-impact-assessments.pdf",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "imy"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "com_g",
+   "kind": "guidance",
+   "cite": "Commission guidelines on prohibited AI practices and on the AI system definition (Feb 2025)",
+   "note": "Interpretation of Art. 5 and Art. 3(1).",
+   "url": "https://ai-act-service-desk.ec.europa.eu/",
+   "stages": [
+    1
+   ],
+   "triggers": [
+    "prohibited"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "imy_skel",
+   "kind": "authority",
+   "cite": "IMY, Skellefteå kommun (Gymnasienämnden), DI-2019-2221, Aug 2019",
+   "note": "Facial recognition for school attendance: consent invalid due to imbalance of power; no adequate DPIA and no prior consultation. Sweden's first GDPR fine (SEK 200 000).",
+   "url": "https://www.imy.se/",
+   "stages": [
+    1,
+    6
+   ],
+   "triggers": [
+    "crit7",
+    "crit4",
+    "art36"
+   ],
+   "verified": "2026-11-09",
+   "check": "Confirm decision date, fine and the articles cited (reported: Arts. 5, 9, 35, 36)."
+  },
+  {
+   "id": "imy_cv",
+   "kind": "authority",
+   "cite": "IMY, Polismyndigheten (Clearview AI), DI-2020-2719, 10 Feb 2021",
+   "note": "SEK 2.5m under the Criminal Data Act: no impact assessment before using a facial recognition service from an external third-country provider; inadequate organisational measures.",
+   "url": "https://www.imy.se/link/5d5e59d4e64c4dcd909c0f7d42606960.aspx",
+   "stages": [
+    1,
+    2
+   ],
+   "triggers": [
+    "R11",
+    "crit8"
+   ],
+   "verified": "2026-11-09",
+   "check": null
+  },
+  {
+   "id": "ap_uber",
+   "kind": "authority",
+   "cite": "Autoriteit Persoonsgegevens (NL), Uber, EUR 824 990 000 (EDPB news 8 Oct 2026)",
+   "note": "Automated deactivation of drivers breached Art. 22 and Art. 13 (insufficient information on profiling). Under appeal.",
+   "url": "https://www.edpb.europa.eu/news/dutch-dpa-fines-uber-eur-824-990-000-for-unlawful-automated-decision-making-and-insufficient_de",
+   "stages": [
+    4,
+    5
+   ],
+   "triggers": [
+    "R4",
+    "auto",
+    "crit2"
+   ],
+   "verified": "2026-11-09",
+   "check": "Under appeal; not final."
+  }
+ ]
+}
